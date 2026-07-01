@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6i0463/T/v1
+canonical_location: https://kanripo.org/bkk/KR6i0463/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說法身經
+  identifiers:
+    krp: KR6i0463
+    cbeta: T17n0766
+    cbeta_old_id: T17n0766
+    authorityid: CA0000939
+    json_key: T0766
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T17/T17n0766.xml
+    old_id: T17n0766
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0463_000-T.yaml, hash: 'sha256:7548ad666c70017cc31fdaea492ec41d137d1803b1c6a528de6d5f825ea5b00a'}
+  - {seq: 1, filename: KR6i0463_001-T.yaml, hash: 'sha256:830ed63c6cbb2215a1624c3e22e1cbb0297186a5eb5c4f31a33daa10b03cc3bc'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6i0463_000-T.markers.yaml, hash: 'sha256:ebddda7ba5af8c291ec37dd8f607dfa87a795b0ff0a75d4e2f37f891d10bbdb4'}
+  - {seq: 1, role: markers, filename: assets/KR6i0463_001-T.markers.yaml, hash: 'sha256:6fbff18c555d51896e381095979b808359a115cfaeacfaa988d8296fa31df949'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0463_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 1729
+  label: 佛說法身經
+  type: juan
+  level: 1
+hash: sha256:0ab493878ac2784869041a2f47846fc831c2698047ec30a654c2427fbd49eaca
